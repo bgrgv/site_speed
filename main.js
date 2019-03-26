@@ -8,7 +8,7 @@ const { dialog } = require('electron')
 let win;
 function createWindow(){
     win=new BrowserWindow({show:false,hasShadow:true,frame:false,maxHeight:800,maxWidth:800,resizable:false,minHeight:800,minWidth:800,webPreferences:{nodeIntegration:false}
-    ,);
+    ,});
     var stopwatch = Stopwatch.create();
     stopwatch.start();
     win.loadURL("https://www.amazon.com");
