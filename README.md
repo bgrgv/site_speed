@@ -1,2 +1,2 @@
 # site_speed
-Test website speed, the simple way!
+### A very minimal Electron Js based approach to track the time between request and response of a web server.
